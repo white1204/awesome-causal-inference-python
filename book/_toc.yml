@@ -1,0 +1,21 @@
+format: jb-book
+root: intro.md
+
+parts:
+  - caption: Contents
+    chapters:
+    - file: prior_knowledge/overview.md
+    - file: ate/overview.md
+      sections:
+      - file: ate/ols.ipynb
+      - file: ate/propensity_score_and_dml.ipynb
+      - file: ate/did.ipynb
+      - file: ate/sc.ipynb
+      - file: ate/sdid.ipynb
+      - file: ate/iv.ipynb
+      - file: ate/rdd.ipynb
+    - file: cate_and_policy/overview.md
+      sections:
+      - file: cate_and_policy/parametric_cate.ipynb
+      - file: cate_and_policy/nonparametric_cate.ipynb
+      - file: cate_and_policy/policy_learning.ipynb
