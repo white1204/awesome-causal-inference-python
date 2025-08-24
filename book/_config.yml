@@ -22,7 +22,7 @@ sphinx:                                              # Options passed on to the 
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"] #exclude files which should not be accessible for live code: https://teachbooks.io/manual/features/live_code.html
     html_theme_options:
       logo:
-        text: 함께 만드는 인과추론                              # Replace this with your own book title
+        text: Awesome Causal Inference                            # Replace this with your own book title
         image_light: pseudo_lab.png             # Put your logo for the light mode here (can be the same as image_dark)
         image_dark: pseudo_lab_inverted.png     # Put your logo for the dark mode here (can be the same as image_light)
       repository_url: "https://github.com/CausalInferenceLab/awesome-causal-inference-python" # Add your own repo URL here
